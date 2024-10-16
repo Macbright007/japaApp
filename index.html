@@ -4,28 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Agency</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav>
       <div class="inner_nav gen_layout">
-        <h1>tr<span><i class="fa fa-plane" aria-hidden="true"></i></span>vel</h1>
+        <h1>
+          tr<span><i class="fa fa-plane" aria-hidden="true"></i></span>vel
+        </h1>
 
-        <div class="nav_items">
-          <a href="#">home</a>
-          <a href="#">about</a>
-          <a href="#">services</a>
-          <button class="btn1">log in</button>
-          <button class="btn2">sign up</button>
+        <!-- hamburger code -->
+        <label for="toggle" class="hamburger">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+
+        <div class="nav_right">
+          <div class="nav_items">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <button class="btn1">log in</button>
+            <button class="btn2">sign up</button>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-- main area  -->
     <main>
-      <section>
+      <section class="sec_one">
         <div class="bg_image gen_layout">
           <div class="bg_content">
             <h1>
@@ -46,48 +57,348 @@
         <div class="bookings">
           <!-- first card -->
           <div class="book_card">
-            <img src="./image/bg.jpg" alt="nature" />
+            <div class="img_wrap">
+              <span>1</span>
+              <img src="./image/bg.jpg" alt="nature" />
+            </div>
 
             <div class="book_card_content">
               <h2>bali</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, atque!
-              </p>
-              <button>explore</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn_btn">explore</button>
             </div>
           </div>
           <!-- second card -->
           <div class="book_card">
-            <img src="./image/bg.jpg" alt="nature" />
+            <div class="img_wrap">
+              <span>2</span>
+              <img src="./image/bg.jpg" alt="nature" />
+            </div>
 
             <div class="book_card_content">
               <h2>bali</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, atque!
-              </p>
-              <button>explore</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn_btn">explore</button>
             </div>
           </div>
           <!-- third card -->
           <div class="book_card">
-            <img src="./image/bg.jpg" alt="nature" />
+            <div class="img_wrap">
+              <span>3</span>
+              <img src="./image/bg.jpg" alt="nature" />
+            </div>
 
             <div class="book_card_content">
               <h2>bali</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, atque!
-              </p>
-              <button>explore</button>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn_btn">explore</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- progress code -->
+        <div class="progress">
+          <div class="progress_chart">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>45</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+
+          <div class="progress_chart">
+            <span><i class="fa fa-flag-checkered" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>178</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+          <div class="progress_chart">
+            <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>67</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+          <div class="progress_chart">
+            <span><i class="fa fa-users" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>488</h6>
+              <h4>Customers</h4>
             </div>
           </div>
         </div>
       </section>
 
       <!-- third Section -->
-       
+      <section>
+        <div class="locations gen_layout">
+          <h2>locations</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+            autem id ipsam necessitatibus ex accusamus debitis alias incidunt
+            labore repudiandae!
+          </p>
+
+          <div class="location_grid">
+            <!-- first grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- second grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- third grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- forth grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- fifth grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- sixth grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- seventh grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- eight grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+
+            <!-- ninth grid card -->
+            <div class="location_grid_card">
+              <!-- card top -->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./image/bg.jpg" alt="seatle" />
+                  <h5>seatle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>Pop: 4,500, 000</h6>
+                </div>
+              </div>
+
+              <img src="./image/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seatle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium sequi tempore culpa nisi perferendis error?
+                </p>
+                <button class="btn_btn">visit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
